@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .main{
+            display: flex;
+            width: 100%;
+            height: 640px;
+            background-color: darkkhaki;
+        }
+         .main1
+        {
+            width: 20%;
+            height: 635px;
+            background-color: darkolivegreen;
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1px;
+            width: 100%;
+        }
+         .main3{
+            padding-left: 20px;
+            padding-right: 50px;
+        }
+        .heading{
+            margin-top: 30px;
+             margin-left: 150px; 
+            margin-right: 300px; 
+            border: 2px solid black;
+             padding-left: 200px;
+            padding-right: 500px; 
+        }
+         .heading h1{
+            text-align: center;
+            font-size: 50px;
+        }
+        .main2{
+            width: 70%;
+        }
+        .portfolio-menu ul{
+            list-style: none;
+            display: flex;
+            gap: 60px;
+            font-size: 25px;
+        }
+        .portfolio-menu a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .main4{
+            margin-top: 40px;
+            padding-left: 130px;
+        }
+        .portfolio-images{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .img-box img{
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .main5{
+            padding-left: 130px;
+        }
+    </style>
+</head>
+<body>
+     <div class="main">
+        <div class="main1">
+            <div class="img1">
+              <img src="8pic.jpeg" alt="" height="250px" width="100%">
+            </div>
+            <div class="menu">
+                <h3>HOME</h3>
+                <h3>
+                    <span class="span1">ABOUT ME</span>
+                </h3>
+                <h3>RESUME</h3>
+                <h3>PORTFOLIO</h3>
+                <h3>TESTIMONIALS</h3>
+                <h3>CONTACT</h3>
+            </div>
+        </div>
+        <div class="main2">
+        <div class="main3">
+                <div class="heading">
+                    <h1>PORTFOLIO</h1>
+                </div>
+        </div>
+        <div class="main4">
+        <div class="portfolio-menu">
+            <ul>
+                <li><a href="#">All</a></li>
+                <li><a href="#">Graphic Designer</a></li>
+                <li><a href="#">Web Designer</a></li>
+                 <li><a href="#">Photographer</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="main5">
+        <div class="portfolio-images">
+            <div class="img-box">
+                <img src="hinavy.jpg" alt="">
+            </div>
+            <div class="img-box">
+                <img src="namak.jpg" alt="">
+            </div>
+            <div class="img-box">
+                <img src="JKP.jpg" alt="">
+            </div>
+             <div class="img-box">
+                <img src="sulphite.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
